@@ -193,4 +193,5 @@ sudo ssh -i MyKey.pem(ssh key) ubuntu(ec2-user)@ip_address_public
 docker run -d -p 3000:3000 dennys27/node-app-prod
 ```
 
+#### 25. Now you can access your node.js file in new server  :
 
