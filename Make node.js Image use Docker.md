@@ -1,7 +1,7 @@
 # Step by Step Make Node.js Image use Docker
 ### Denny Manuel Yeremia Sinurat(185150707111004)
 
-####in this exercise i am using ubuntu os on aws server, make server in AWS ec2 first and connect it use ssh 
+*in this exercise i am using ubuntu os on aws server, make server in AWS ec2 first and connect it use ssh 
 <br>
 
 
@@ -99,7 +99,7 @@ File executed successfully on port 3000
 ```yaml
 nano Dockerfile
 ```
-####copy & paste this script:
+copy & paste this script:
 
 ```yaml
 FROM node:latest
@@ -128,7 +128,7 @@ docker run -d -p 3000:3000 -v $(pwd):/app node-app
 ```yaml
 nano Dockerfile.prod
 ```
-####copy & paste this script:
+copy & paste this script:
 
 ```yaml
 FROM node:latest
@@ -184,7 +184,6 @@ sudo ssh -i MyKey.pem(ssh key) ubuntu(ec2-user)@ip_address_public
 -	curl -fsSL https://get.docker.com -o get-docker.sh
 -	sh get-docker.sh
 - sudo usermod -aG docker ubuntu
-
 ```
 
 
